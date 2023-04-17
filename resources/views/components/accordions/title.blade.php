@@ -1,8 +1,4 @@
 @props(["arrow" => "true"])
-{{--<!--
-    All default styles are for the behaviour pupose.
-    Add your styles to the calling tag to customize the look & feel or to override some default styles.
--->--}}
 
 <div {!! $attributes->merge(['class' => 'accordion-title accordion-trigger sticky top-[53px] group flex justify-between items-center px-5 py-0.5 w-full text-left cursor-pointer transition-all duration-700 ease-in-out
 group-[.active]:sm:w-[104%] group-[.active]:sm:-mr-[2%] group-[.active]:sm:-ml-[2%] group-[.active]:sticky group-[.active]:shadow-lg group-[.active]:shadow-gray-900/40 group-[.active]:bg-gray-800
